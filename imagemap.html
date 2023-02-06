@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Map</title>
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/4577/4577383.png" type="image/x-icon">
+    <style>
+        
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            width: 100%;
+            height: 100vh;
+            font-family: monospace;
+            background-image: linear-gradient(90deg,rgb(254, 169, 183),rgb(243, 197, 204),white);
+            background-size: cover;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        #title {
+            text-decoration: underline; padding:20px;
+        }
+        #imagemap {
+            width: 100%;
+            height: auto;align-items:center;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1 id="title">Image Map</h1>
+    <div class="image">
+<center>        
+<img id="images" src="https://image.freepik.com/free-photo/laptop-gadget-device-notebook-blank-space-concept_53876-65102.jpg" 
+alt="Workplace" usemap="#intern" width="30%" style="border-radius: 10px;border: solid lightyellow"></img>
+
+<map name="intern">
+  <area shape="rect" coords="34,44,270,350" target="_blank;"
+  alt="Computer" href="https://en.wikipedia.org/wiki/Ariana_Grande">
+</map>
+</center>
+</div>
+    <br>
+    <h1>Click on Suitcase to get to the website</h1>
+</body>
+</html>

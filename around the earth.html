@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="around the earth.css">
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/868/868927.png" type="image/x-icon">
+    <title>Round Around Earth</title>
+</head>
+<body>
+    <img src="https://www.ukri.org/wp-content/uploads/2021/10/STFC-041021-EuropeFromSpace-GettyImages-1284041267.jpg" alt="Around the Earth" id="backgroundImage">
+    <div class="backimage">
+        <img src="https://www.pngall.com/wp-content/uploads/5/Astronaut.png" alt="astronaut" id="3dImage2">
+    </div>
+    <div class="backimage1">
+        <img src="https://www.pngall.com/wp-content/uploads/5/Astronaut-PNG-Images.png" alt="astronaut" id="3dImage">
+    </div>
+    <div class="form">
+        <h1 id="heading">Round Around Earth</h1>
+        <form>
+            <div>
+                <label id="departure">Departure Country</label>
+            </div>
+            <div>
+                <select id="dropDown" required autofocus>
+                    <option>India</option>
+                    <option>England</option>
+                    <option>USA</option>
+                    <option>South Korea</option>
+                    <option>Sri lanka</option>
+                    <option>Japan</option>
+                    <option>China</option>
+                    <option>Italy</option>
+                    <option>Germany</option>
+                    <option>Pakistan</option>
+                    <option>Singapore</option>
+                    <option>Malasiya</option>
+                </select>
+            </div><br>
+            <div>
+                <label>Number of Space Travellers</label>
+            </div>
+            <div>
+                <input type="number" min="1" id="noOfTravellers" required placeholder="In digits">
+            </div>
+            <div>
+                <label>Your Email</label>
+            </div>
+            <div>
+                <input type="email" id="email" required placeholder="Your email id">
+            </div>
+            <div>
+                <label>Do you want to rent a space suit?</label>
+            </div>
+            <div>
+                <input type="radio" id="yesOrNo">
+                <label>Yes ,Please</label><br>
+                <input type="radio" id="yesOrNo">
+                <label>No,I have my own. Thanks</label>
+            </div>
+            <div>
+                <button id="submit">Take Us To Space</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

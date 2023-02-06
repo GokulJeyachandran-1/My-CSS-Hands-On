@@ -1,0 +1,25 @@
+
+#titleName{color:white; background-color:lightpink;padding:10px;}
+body{background-color:silver;}
+
+.div1 , .div3, .div5
+{background-image: linear-gradient(rgb(2, 238, 255),rgb(93, 215, 231),white);
+     height:500px;}
+#healthParagraph1,#healthParagraph3, #healthParagraph5 {}
+#healthDescription1,#healthDescription3,#healthDescription5{}
+#health1,#health3,#health5{float:left;}
+img{padding: 10px;
+    border:solid 2px white;}
+p,h3{
+    padding: 10px;;
+}
+
+.div2,.div4
+{background-image: linear-gradient(rgb(2, 238, 255),rgb(93, 215, 231),white);
+    height:500px;
+#healthParagraph2,#healthParagraph2{}
+#healthDescription2,#healthDescription4{}
+#health2,#health4{float:right;}
+img{padding:10px;
+   border:solid 2px white;}
+}
